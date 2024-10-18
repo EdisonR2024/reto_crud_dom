@@ -1,0 +1,57 @@
+:root{
+    /* Colores */
+    --color-cabecera: hsl(234, 71%, 66%);
+    --color-pie: hsl(234, 71%, 66%);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header{
+    background-color: var(--color-cabecera);
+    color: white;
+    /* height: 50%; */
+    text-align: center;
+    padding: 3%;
+}
+
+main{
+    /* height: 100vh; */
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    padding: 3%;
+
+    #miDiv{
+        background-color: hsl(0, 73%, 65%);
+        width: 25%;
+        height: 20%;
+        margin: 1% ;
+        text-align: center;
+    }
+
+    button{
+        padding: 0.4%;
+    }
+}
+
+footer{
+    background-color: var(--color-cabecera);
+    color: white;
+    padding: 2%;
+    text-align: center;
+    /* height: 50%; */
+}
+
